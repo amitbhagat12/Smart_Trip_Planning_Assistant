@@ -28,9 +28,9 @@ flowchart TD
 
    RD -->|Budget only| B
 
-   W --> D[Destination Agent<br/>Serper OpenWeather API]
+   W --> D[Destination Agent<br/>Serper & Gemini API]
 
-   D --> T[Transport Agent<br/>Gemini]
+   D --> T[Transport Agent<br/>Serper]
 
    T --> B[Budget Agent<br/>Gemini]
 
