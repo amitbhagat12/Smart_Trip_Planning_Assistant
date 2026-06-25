@@ -20,7 +20,7 @@ flowchart TD
 
    RD -->|missing info| ASK([Ask User]) --> U
 
-   RD -->|First request or Full| W[Weather Agent<br/>OpenWeatherMap API + Gemini]
+   RD -->|First request or Full| W[Weather Agent<br/>OpenWeatherMap API + Serper]
 
    RD -->|Style| D
 
@@ -34,7 +34,7 @@ flowchart TD
 
    T --> B[Budget Agent<br/>Gemini]
 
-   B --> I[Itinerary Agent<br/>Gemini API for hotels]
+   B --> I[Itinerary Agent<br/>Gemini API ]
 
    I --> OUT([Final Day-wise Plan])
 
