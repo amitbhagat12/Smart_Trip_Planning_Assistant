@@ -28,13 +28,13 @@ flowchart TD
 
    RD -->|Budget only| B
 
-   W --> D[Destination Agent<br/>OpenTripMap API]
+   W --> D[Destination Agent<br/>Serper OpenWeather API]
 
    D --> T[Transport Agent<br/>Gemini]
 
    T --> B[Budget Agent<br/>Gemini]
 
-   B --> I[Itinerary Agent<br/>Foursquare API for hotels]
+   B --> I[Itinerary Agent<br/>Gemini API for hotels]
 
    I --> OUT([Final Day-wise Plan])
 
