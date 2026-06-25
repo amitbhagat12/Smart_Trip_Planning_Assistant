@@ -1,0 +1,60 @@
+# ✅ Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ✅ Virtual environment
+venv/
+venv311/
+env/
+.venv/
+
+# ✅ Environment variables (VERY IMPORTANT)
+.env
+
+# ✅ Logs
+*.log
+
+# ✅ OS files
+.DS_Store
+Thumbs.db
+
+# ✅ IDE files
+.vscode/
+.idea/
+
+# ✅ Jupyter / notebooks
+.ipynb_checkpoints/
+
+# ✅ Build / dist
+build/
+dist/
+*.egg-info/
+
+# ✅ Temporary files
+*.tmp
+*.bak
+
+# ✅ Streamlit cache
+.streamlit/
+
+# ✅ Output files (your project-specific)
+output/
+outputs/
+
+# ✅ API keys or secrets (extra safety)
+secrets.json
+config.json
+
+# ✅ Node (if you ever use frontend)
+node_modules/
+
+# ✅ Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ✅ Misc
+*.sqlite3
+*.db
