@@ -32,7 +32,7 @@ flowchart TD
 
    D --> T[Transport Agent<br/>Serper]
 
-   T --> B[Budget Agent<br/>Gemini]
+   T --> B[Budget Agent<br/>Serper & Gemini]
 
    B --> I[Itinerary Agent<br/>Gemini API ]
 
